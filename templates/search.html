@@ -1,0 +1,50 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Take Me Away
+{% endblock %}
+
+{% block content %}
+
+
+<h>What do you look for in a holiday?</h>
+<p></p>
+<div class="slidecontainer"> Cities 🧗🏽‍♀️
+  <input type="range" min="1" max="5" value="50" class="slider" id="myRange">
+</div>
+
+<div class="slidecontainer"> Adventure 🧗🏽‍♀️
+    <input type="range" min="1" max="5" value="50" class="slider" id="myRange">
+</div>
+
+<div class="slidecontainer"> The beach 🏖️
+  <input type="range" min="1" max="5" value="50" class="slider" id="myRange">
+</div>
+
+<div class="slidecontainer"> Romance 💘 
+  <input type="range" min="1" max="5" value="50" class="slider" id="myRange">
+</div>
+
+<div class="slidecontainer"> History 🏛️
+  <input type="range" min="1" max="5" value="50" class="slider" id="myRange">
+</div>
+
+<div class="slidecontainer"> Nightlife 🍸
+    <input type="range" min="1" max="5" value="50" class="slider" id="myRange">
+</div>
+
+<div class="slidecontainer"> Nature 🏞️
+  <input type="range" min="1" max="5" value="50" class="slider" id="myRange">
+</div>
+
+<label class="container">I have a car 🚘
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+
+  <p>
+  <button class="submit">Take Me Away</button>
+  </p>
+
+
+{% endblock %}
